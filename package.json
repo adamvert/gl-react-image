@@ -8,6 +8,9 @@
     "prepublish": "npm run compile",
     "example": "cd example && budo index.js -- -t [ babelify --presets es2015,stage-1,react ]"
   },
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
   "peerDependencies": {
     "gl-react": "~2.2.0"
   },
